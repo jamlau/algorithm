@@ -4,6 +4,7 @@ from collections import OrderedDict
 '''
 百家姓，按频率排序
 并按频率权重随机输出元素
+inspired by faker module
 '''
 #百家姓，按频率排序
 odt=OrderedDict((
