@@ -1,0 +1,1804 @@
+
+
+Request Head:
+
+POST /api/standard/catalogue HTTP/1.1
+charset: utf-8
+Accept-Encoding: gzip
+referer: https://servicewechat.com/wx297e86821b81e23e/22/page-frame.html
+x-user-token: ZkZNVmZiMGE4eWo4dGpxRjBhQXZnZXhISXd1V3dJOW1tMjdDR3M2ckdBMD0=
+content-type: application/json
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; SM-G9500 Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/72.0.3626.105 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN
+Content-Length: 46
+Host: wp.viffer.cn
+Connection: Keep-Alive
+
+
+Body:
+
+{
+	"book_id":"TUlNQk5TY2dMQmR2SUEvUW9SQlhqdz09"
+}
+
+Response Head:
+
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Tue, 05 Mar 2019 03:52:57 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/5.6.19
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, X-Request-Type, X-User-Token,X-CMS-Token
+
+
+Body:
+
+{
+	"code":0,
+	"data":{
+		"book_id":"TUlNQk5TY2dMQmR2SUEvUW9SQlhqdz09",
+		"version":1,
+		"book_name":"城市道路交叉口设计规程 ",
+		"book_code":"CJJ 152-2010",
+		"is_abolish":0,
+		"abolish_time":null,
+		"execute_time":null,
+		"publish_time":null,
+		"is_image":false,
+		"is_soon_execute":false,
+		"is_favorites":false,
+		"is_force":true,
+		"note_count":0,
+		"catalogue":[
+			{
+				"id":"RjJRSlJDNTE0M0kxcE5wWlg1Q25Vdz09",
+				"content":"1 总 则",
+				"image":null,
+				"sort":0,
+				"is_catalogue":1,
+				"is_force":0,
+				"children":[
+					{
+						"id":"SGZMa3Z4QW1OYVRuY0g4THlOejQyQT09",
+						"content":"1.0.1  为贯彻国家的技术经济、社会发展政策，科学合理地设计城市道路交叉口，做到以人为本、技术先",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"QjVhSWhQZkE4ZzF3YzJ4YWdWOTk1Zz09",
+						"content":"1.0.2 本规程适用于新建和改建城市道路交叉口设计。新建交叉口必须按本规程的要求设计；当改建交叉口",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"ZEs2bFBWc0RWaENVUXNkQm5UVFZtQT09",
+						"content":"1.0.3  城市道路交叉口设计应符合城市总体规划及城市交通规划所确定的相交道路类别、等级、红线宽度",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"SnhHKzhJdmNIaHN3eW05RERwU3kvdz09",
+						"content":"1.0.4 城市道路交叉口设计除应符合本规程外，尚应符合国家现行有关标准的规定。",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					}
+				]
+			},
+			{
+				"id":"akRxUmRKOHczZSt3Q2kzNm1YeWltdz09",
+				"content":"2 术 语",
+				"image":null,
+				"sort":0,
+				"is_catalogue":1,
+				"is_force":0,
+				"children":[
+					{
+						"id":"N3dZODE5YXBXT0hHeGpPQVBCU3pZUT09",
+						"content":"2.0.1  枢纽立交  key interchange特大城市、大城市的快速路与快速路、高速公路或",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"OUZRUjY0VUhOdm1RM3d4bGxYME1vQT09",
+						"content":"2.0.2  一般立交  common interchange  城市主干路或次干路与城市快速路或高",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"RHQvRFE2U1JuWWZpVmFkTEluMW5rQT09",
+						"content":"2.0.3  信号控制交叉口  signalized intersection  用交通信号灯组织指",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"MHJscUlWcGJxZjlrZFQwdDhiMm1jUT09",
+						"content":"2.0.4  停车让行交叉口  stop sign intersection  主要道路与次要道路相",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"TmVnYVpBSGZYQ2dvakdCR0dFYlI5QT09",
+						"content":"2.0.5  全无管制交叉口  uncontrolled intersection  无任何交通管制",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"UVpsRVVQQzNreEcwUktSZC8xcDVlZz09",
+						"content":"2.0.6  交通岛  traffic island  为渠化分隔交通流和提供行人过街驻足而设置在路",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"NytMVmZXcXlxUlhmRDl3TXl3NjRCZz09",
+						"content":"2.0.7  渠化设计  channelinged design at road intersect",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"L0JJODNiTmgxdGY3UWN6V1ArUytIdz09",
+						"content":"2.0.8  左转超前候驶  left turn vehicles stopped ahead cr",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"eXV1ODV3OGRJVGlBUllDems2K01oUT09",
+						"content":"2.0.9  道路中线偏移法  center line of road deflective met",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"dFlpN2hURVJRUVpWSWZWQld3Y2doQT09",
+						"content":"2.0.10 辅助车道 auxiliary lane  在立体交叉分流段上游、合流段下游，为使匝道上",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"ditpeEsxMlRyZ3lZWnRBRzdpS3phdz09",
+						"content":"2.0.11  集散车道  collection-distributed lane  为了减少立体交",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"MWJ2ZFhlNzQrbWJqVUhKNHFLUGNLQT09",
+						"content":"2.0.12 变速车道  variable velocity lanes  在互通式立交出入口处，供",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"aVRwbFZ1bEtMU0NYMjdDaVRLdjhUdz09",
+						"content":"2.0.13 交织路段 interweaved section  在立交中，从合流一侧的楔形端部到分",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"cFlIZnFUM3FvWkQ3MmI3UzNiNngxUT09",
+						"content":"2.0.14  迂回式立交  detour type interchange  互通式立交的一种基本",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"eUZRcjFOOERPMENQWEQzckJpRTdkQT09",
+						"content":"2.0.15 辅路 relief road  集散快速路交通的道路，设置于快速路两侧或一侧，单向或双",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					}
+				]
+			},
+			{
+				"id":"NWlPYkJEQ1dncEdVSHNXd3FwOGhpQT09",
+				"content":"3 基本规定",
+				"image":null,
+				"sort":0,
+				"is_catalogue":1,
+				"is_force":0,
+				"children":[
+					{
+						"id":"c0ZBWjU3VTBiTHZTSGhYUEZHUDQydz09",
+						"content":"3.1 道路交叉的分类及其选择",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"d2ZoRVdvK1V5aDNOVm9XSHBDWVhjdz09",
+								"content":"3.1.1 城市道路交叉宜分为平面交叉和立体交叉两类。应根据道路交通网规划、相交道路等级及有关技术、",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"NUk5QzNJZThUMFc1WE5HdUJ5T1FWUT09",
+								"content":"3.1.2  平面交叉口应按交通组织方式分类，并应符合满足下列要求：  1  A类：信号控制交叉口 ",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"blNtRWh0SkZzc2dlWEp5WTFUVXdjdz09",
+								"content":"3.1.3 平面交叉口的选用类型，应符合表3.1.3的规定。        注：1 人口在50万以上",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"UE5YMTZZVjh1RS9DaFVKUWt0TDYvdz09",
+								"content":"3.1.4 立体交叉口应根据相交道路等级、直行及转向(主要是左转)车流行驶特征、非机动车对机动车干扰",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"bjMwNVVneFo4eENIa2NKL25FaFltQT09",
+								"content":"3.1.5 城市道路立交类型选择，应根据交叉节点在城市道路网中的地位、作用、相交道路的等级，并应结合",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"SGI5M21NN1JlU21scXZzcVgybEg5Zz09",
+						"content":"3.2 设计原则",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"OHpBaUJpblg2Y1J4OTFhdUZGeWZOdz09",
+								"content":"3.2.1  平面交叉口设计范围应包括该交叉口各条道路相交部分及其进出口道(展宽段和渐变段)以及行人",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"a0JaSmFuL1FxdHlTaS9NUTRqQnNSdz09",
+								"content":"3.2.2  立体交叉口设计范围应包括相交道路中线交点至各进出口变速车道渐变段的起终点间(包括道路主",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"alp2TU54OWw5RGdNVXNjUkxYSXhEUT09",
+								"content":"3.2.3  交叉口设计应节约用地，合理拆迁。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"S1lvQU4wTGwyVktKNDI1UmVSZFF3Zz09",
+								"content":"3.2.4  交叉口平面设计应与交通组织设计、交通信号控制及交通标志、标线等管理设施设计同步进行。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"SHdQeU1SbEx6Yjk4Mng1ZTZnc2RUQT09",
+								"content":"3.2.5  平面交叉口设计时，应使进出口道通行能力与其上游路段通行能力相匹配，并注意与相邻交叉口之",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"WFlHZ2hGRk8wKy8zWlZvckNGaUVrUT09",
+								"content":"3.2.6  交叉口设计应使行人过街便捷、安全，并适应残疾人、儿童、老人等弱势群体的通行要求。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"MzZNR1l6RnNSTVlnajRobjVRaUZIUT09",
+								"content":"3.2.7  交叉口设计应妥善处理机动车与非机动车之间的相互干扰。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"TzFHYXo5cGJQRmtTSks1SWtvQjBqdz09",
+								"content":"3.2.8  交叉口范围内的平面与竖向线形设计应尽量平缓，满足行车安全通畅，排水迅速，环境美观的要求",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"eiszMzB3NmY2OUdGRGZlU0U3RzZYdz09",
+								"content":"3.2.9  交叉口的设计标高应与周围建筑物标高协调，便于布设地下管线和地上设施。立体交叉口宜采用自",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"cVBVTVRqeXpMZlNmWVpwaHJRbFE3dz09",
+						"content":"3.3 设计车辆、设计速度、设计年限",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"RytTSWlEcXUxR0ZzRitBakhBaElaZz09",
+								"content":"3.3.1  交叉口设计车辆应与城市道路设计车辆一致。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"eGhYYllIalVFNzBHVXM0NUF6andHZz09",
+								"content":"3.3.2  交叉口设计年限应与城市道路的设计年限一致。组成交叉口的各条道路等级不同时，以等级较高道",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"SzJRNVkxWEVENGdLeU8yMDljOExKdz09",
+								"content":"3.3.3  平面交叉口内的设计速度在保证安全的前提下，应按组成交叉口的各条道路的设计速度的50％～",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"dVhUTGRIV0lsRGR1RFVRNENkUnk1UT09",
+								"content":"3.3.4  立体交叉主线应采用相应道路等级的设计速度。立交匝道设计速度宜为相应道路设计速度的50％",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"Wmdqd0daSENNQTFOK3RsTnZ5T3AwQT09",
+						"content":"3.4 建筑界限、抗震设防",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"NVVzd0xKcVpDblNpWXJNNW1DT1dqQT09",
+								"content":"3.4.1 交叉口范围内的最小净高应符合表3.4.1的规定，顶角抹角宽度应与机动车道侧向净宽一致。 ",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":1
+							},
+							{
+								"id":"WkUwbFhkSWxNOXdZclV0c1h3aGdpdz09",
+								"content":"3.4.2  交叉口的抗震设防要求应与道路的抗震设防一致。  ",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					}
+				]
+			},
+			{
+				"id":"SkxiWG84eUg2RERncDAvRUlIcG5KQT09",
+				"content":"4 平面交叉",
+				"image":null,
+				"sort":0,
+				"is_catalogue":1,
+				"is_force":0,
+				"children":[
+					{
+						"id":"dDNFeDdKSW1OSzhEZjB0VFZrcDdVUT09",
+						"content":"4.1 设计原则",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"SE90THJHT1ArN3pCU0Vxa3JsUUsyUT09",
+								"content":"4.1.1  平面交叉口按几何形状可分为十字形、T形、Y形、X形、多叉形、错位及环形交叉口。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"YVdlQ21DaHIvcWxVQnpBRCsxSmdYdz09",
+								"content":"4.1.2  新建平面交叉口不得出现超过4叉的多路交叉口、错位交叉口、畸形交叉口以及交角小于70°(",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"M0RyYjN0SGxLeFpXVUdoSkF6SG4yUT09",
+								"content":"4.1.3  平面交叉口间距应根据城市规模、路网规划、道路类型及其在城市中的区域位置而定；干路交叉口",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"dzIxUExCOTBvdXRvait2bS9LSU9Ndz09",
+								"content":"4.1.4  交叉口附近设置公交停靠站应根据公交线路走向、道路类型、交叉口交通状况，结合站点类别、规",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"TDBLWXJzOUkyY3h0QzFZb2JQYVI1Zz09",
+								"content":"4.1.5  交叉口范围内有轨道交通时，应做好轨道交通与地面交通换乘设计。  ",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"cGRxRUFXS2hPa0RzSWpTR1NvdEVXUT09",
+								"content":"4.1.6  地块及建筑物机动车出入口不得设在交叉口范围内，且不宜设置在主干路上，宜经支路或专为集散",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VVNCTnl0VE1LTFdadGRaaDY0NU1YZz09",
+								"content":"4.1.7  桥梁、隧道两端不宜设置平面交叉口。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"dnJKditqdnVTMi9vTGlnQnhXb1lXQT09",
+						"content":"4.2 交通组织与进出口道设计",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"c1hPMElBaS9HSTg4aWwrSXVIaktWUT09",
+								"content":"4.2.1  平面交叉口机动车设计交通量应区分直行及左右转交通量。确定进口道车道数等平面设计时，应采",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"cUlPSW56OGgwRHlBZ1hLVzBIbFgrZz09",
+								"content":"4.2.2  平面交叉口非机动车设计交通量的确定方法与机动车相同。平面交叉口行人过街设计交通量应采用",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"eWlxcVpYM2JzWlRaYWxqeVUyRDVCZz09",
+								"content":"4.2.3  应根据交通量、相交道路等级、交叉口所处的区域位置及用地条件合理确定交叉口的通行能力和服",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"cHBZTC91cXp6bkROeE05ZHMvc01WZz09",
+								"content":"4.2.4  应根据道路网、交通流量与流向及用地条件等进行交通组织设计。交通组织设计应遵循人车分隔、",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Vkk2Q1NTaElEdG1QTFlPSENGRXJQUT09",
+								"content":"4.2.5  平面交叉口可采用机动车左、直、右转专用车道、非机动车右转专用车道、进口道展宽、进口道中",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"WW1OOXREUzJ2T241bmNveURsN1lHUT09",
+								"content":"4.2.6  全无管制及让行交叉口进口道必须布设行人横道线，并设让行标志。视距不能改善的全无管制交叉",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"NE1VMG1CYklyQnVNUjE2L2QzS0VkQT09",
+								"content":"4.2.7  让行交叉口次要道路进口道宜展宽成两条车道，一条右转车道，一条直左混行车道(四岔交叉口)",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"YU5XSVB3TEdsd0ZxVFZRRGN5N3YzZz09",
+								"content":"4.2.8  信号控制交叉口应根据交通流量、流向确定进口道车道数。进口道车道数应大于上游路段的车道数",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"bUNpZXAvQVN6ZENUZU5kckhBc3drdz09",
+								"content":"4.2.9  平面交叉口一条进口车道的宽度宜为3.25m，困难情况下最小宽度可取3.0m；当改建交叉",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"d3JqVGRJL1hSYlpLREdmYURETGxmZz09",
+								"content":"4.2.10  当高峰15min内每信号周期左转车平均流量达2辆时，宜设左转专用车道；当每信号周期左",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"eVBVaXZUN0ZtVmNsK210bU9KbkZadz09",
+								"content":"4.2.11 进口道左转专用车道设置可采用下列方法：1 展宽进口道，以便新增左转专用车道。2 压缩较",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"a3VkVEY4ZDV4TXRIcHgzcWFLL1ZxQT09",
+								"content":"4.2.12 进口道右转专用车道设置可采用下列方法：1 展宽进口道，新增右转专用车道(图4.2.12",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"TFZFK3pYOFZoZ3ZOSlltK0Z1algwdz09",
+								"content":"4.2.13  进口道长度由展宽渐变段长度(Lt)与展宽段(Ld)组成(图4.2.12)。渐变段长度",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"dzdLN3ZvZnh3cFZjQlVCZEM4N0RKQT09",
+								"content":"4.2.14  出口道车道数应与上游各进口道同一信号相位流入的最大进口车道数相匹配。条件受限的改建交",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"dlpSK3hqK1p3VXNIVG1RaFBjeHNVZz09",
+								"content":"4.2.15  出口道每条车道宽度不应小于路段车道宽度，宜为3.50m，条件受限的改建交叉口出口道每",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"cWVma2prLzRVd25BY3hRMU93ZGxGUT09",
+								"content":"4.2.16  出口道长度由出口道展宽段和展宽渐变段组成(图4.2.12)。展宽段最小长度不应小于3",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Mm9HV1RxOXpjcDVRU1g4TE5kT2ZIUT09",
+								"content":"4.2.17  改建交叉口附近地块或建筑物出入口应满足下列要求：  1  主干路上，距平面交叉口停止",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"NFNZbmwwM05yWnZDV09HaTd4M0VBQT09",
+								"content":"4.2.18  高架道路的桥墩(台)及地道进出口构筑物的布设应保证平面交叉口的视距条件、交通组织及行",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"ajdlMUhGZmlGNlNjWkZLRFoyTHRnZz09",
+								"content":"4.2.19  高架道路、地道或互通立交的出口匝道，靠近平面交叉口时，宜按下列要求布设：  1  出",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"YjZFQVhGZE5jblh4TW9lZ3BBNFRRUT09",
+								"content":"4.2.20  高架道路，地道或互通立交的入口匝道靠近平面交叉口时，宜按下列要求布设：  1  进入",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"L2sxSmN5VFNSa3V6SVpUSnNHWGZLQT09",
+						"content":"4.3 平面与竖向设计",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"ZDBCb1hKRTZzd1IxUVA5OEh2QVJYUT09",
+								"content":"4.3.1  平面交叉口范围内道路中线宜采用直线；当需采用曲线时，其曲线半径不宜小于不设超高的最小圆",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"eGw1aEpiQjZadDJtM3RLZHg0ZjlzQT09",
+								"content":"4.3.2 平面交叉口转角处缘石宜为圆曲线或复曲线，其转弯半径应满足机动车和非机动车的行驶要求，可按",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VUZUK0g2L2QzYWN2TDE2emIySnNXdz09",
+								"content":"4.3.3平面交叉口视距三角形范围内（图4.3.3），不得有任何高出路面1.2m的妨碍驾驶员的障碍物",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":1
+							},
+							{
+								"id":"M09JU25tcytWalRURng2T0RtdGlvdz09",
+								"content":"4.3.4  平面交叉进口道的纵坡度，宜小于或等于2.5％，困难情况下不宜大于3％。山区城市等特殊情",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"aFNBK2ZjMDYzUTZ1SEc1dnF1azMzQT09",
+								"content":"4.3.5  交叉口竖向设计应综合考虑行车舒适、排水畅通、与周围建筑物标高协调等因素，合理确定交叉口",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"ZFZxV0ZEOXNkSENEL055TjBSN1JyZz09",
+								"content":"4.3.6  交叉口竖向设计宜采用控制网等高线法。交叉口人行横道上游、交叉口低洼处应设置雨水口，不得",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"SnNrL25DcjZEeHo0eWFWVHBEZGRYZz09",
+						"content":"4.4 公交停靠站与专用道的设置",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"eGpBWXpNSGx0UWMxWFB3OWdvUzVVUT09",
+								"content":"4.4.1  交叉口附近设置公交停靠站应保证候车乘客的安全，方便乘客换乘、过街，方便公共汽(电)车停",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Rkh0aXRuZDJET0VJeXR5Rkw1Q3ZRdz09",
+								"content":"4.4.2  交叉口附近设置的公交停靠站间的换乘距离，同向换乘不应大于50m，异向换乘不应大于150",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"aEJuQU5pVFh2N05WcFhmRWhkbDFFdz09",
+								"content":"4.4.3  公交停靠站应设置在交叉口的出口道。改建交叉口在出口道布设公交停靠站确有困难时，可将直行",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"UDQybE50bmZnQ1JudWswa2JBaFIxZz09",
+								"content":"4.4.4  交叉口公交停靠站的纵坡度不应大于2％，冰雪地区不应大于1.5％；山区城市地形条件困难时",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"bEErNWliKzgrRnVTbHdhZldmcmNJZz09",
+								"content":"4.4.5  当公交停靠站设置在进口道，且进口道右侧有展宽增加的车道时，停靠站应设在该车道展宽段之后",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"czBvbTNwSk53blVieHNIQkVMNFBBZz09",
+								"content":"4.4.6  当公交停靠站设置在出口道，且出口道右侧展宽增加车道时，停靠站应设在展宽段向前不少于20",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"OHZXQXIwU3FwV1ZXaC9Wc3Uya0h1QT09",
+								"content":"4.4.7  公交停靠站按其设置的位置分为路中式停靠站和路侧式停靠站两种，按几何形状分为港湾停靠站和",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VWw0c1BOM2xJaSs3UFN1cWtXUnlFQT09",
+								"content":"4.4.8 公共汽(电)车港湾式停靠站(图4.4.8)应符合下列规定：1 停靠站候车站台的高度宜为0",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VHBuRGxqa2ZTUXpOTnl5SkZ4Q1JmUT09",
+								"content":"4.4.9  当无轨电车与公共汽车在同一车道设站时，应将电车停靠站台布置在公共汽车停靠站台的前方。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"LzhpTjl4SzhvaFMyZUtyMmZ3M0sxZz09",
+								"content":"4.4.10  当多条公交线路合并设站时，应根据公交车到站频率、站台长度及通行能力确定线路数，不宜超",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"NFpKc1A5NnhSbGVvMjBjeklsdGg0Zz09",
+								"content":"4.4.11  快速公交站台应与常规公交站台分开设置，应采用港湾式停靠站，其几何尺寸根据车辆选型而定",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"eHFrWk5TVkJMS2lLenp2eFRkWGtvdz09",
+								"content":"4.4.12  交叉口附近立交桥匝道出入口段不得设置公交停靠站。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"bmU2MUZjcGw4eldPMTRHWnNQaUcwZz09",
+								"content":"4.4.13  当进口道公交车流量较大时，宜增设公交专用车道，其宽度不应小于3m，长度不应小于25m",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"RWlFL3NTbForODdiM1hlbWw2aGxFZz09",
+								"content":"4.4.14  出口道公交专用车道宽度不应小于3.50m，其起点距对侧进口道停止线延长线的距离，应大",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"bi9zbFVZZjE0WTRQTzRDcGVXZmlPdz09",
+								"content":"4.4.15  公交专用车道系统应在交叉口实行公交优先信号控制，保证公交专用车道公交车在交叉口有优先",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"dE1yQWdMU0dsS3hkcXc5UFNyZDdzUT09",
+								"content":"4.4.16  有快速公交通过的交叉口，必须设置公交优先信号控制，保证快速公交优先通行。  ",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"WjBNN05Nd0krVzNBRVg2SlFpcklvUT09",
+						"content":"4.5 行人与非机动车过街设施",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"QlhuMXNHbGxKb0N2L3hpV015R0ZWdz09",
+								"content":"4.5.1  行人过街设施布设应遵循下列原则：1  应保障行人安全、便捷过街；宜优先选用平面过街方式",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"SGNYOUwvZ2lnc1hkYnNOOHRsN1IyQT09",
+								"content":"4.5.2 两条干路交叉，当采用立体过街设施时，根据交叉口形状，宜采用圆形、口字形、X形、T形、Y形",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"UTJHZXlodDRxM2o2cnhQOTc0WHZPUT09",
+								"content":"4.5.3  行人立体过街设施设置应满足以下要求：  1  人行天桥或地道的梯道或坡道占用人行道宽度",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VkpNYm5wVnBLSEF2NldET3lkdlh2UT09",
+								"content":"4.5.4  人行横道设置应符合下列规定：  1  应设置在驾驶员容易看见的位置，宜与车行道垂直，平",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"dWRvSnpJUHB2ZWNRWG9HR3RpTXN4UT09",
+								"content":"4.5.5  人行横道与人行道或交通岛的交接处应做成坡道，且应符合现行行业标准《城市道路和建筑物无障",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"QThDbTJ0UXdNb2JZcHMvNGc2UmZxQT09",
+								"content":"4.5.6  穿越主、次干路的行人流量较大，可设行人过街专用信号相位，其绿灯时长应根据行人安全过街所",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"MDdSSWc0RFJMbEpxaXpXMjl2dDlrZz09",
+								"content":"4.5.7  非机动车流量较大时，宜在交叉口设置独立的非机动车进出口道，并与机动车道间用设施分隔。非",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"SmgrWlhwWmZPVVE2WE0wUG1EZlkzZz09",
+								"content":"4.5.8  左转非机动车流量较大且交叉口用地条件许可时，可采用非机动车二次过街方式，左转非机动车待",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"Um5TaUNKZ3Z3OGZtWkxreXRxWmtlUT09",
+						"content":"4.6 环形交叉口",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"WVpmMlROdUxSVnhiRmZwYWpBNUZBZz09",
+								"content":"4.6.1  环形交叉口适用多路交汇或转弯交通量较均衡的交叉口，相邻道路中心线间夹角宜大致相等。常规",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"WVB2RCtXYVhLTVAyNm5YeDg1S1VWQT09",
+								"content":"4.6.2 中心岛的形状根据交通条件可采用圆形、椭圆形、圆角菱形、卵形等。中心岛最小半径(或当量半径",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"bUdMNGZyNXV4ejRIdHE1Zy9xWUZudz09",
+								"content":"4.6.3环道的车道数、宽度、断面布置应符合下列规定：    1环道的机动车车道数宜为2~3条。对现",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"em5pb1NFQkhCZklRVjd0eTRvR09Udz09",
+								"content":"4.6.4  环道外缘宜设计成直线；出口缘石半径应大于或等于进口缘石半径；进口缘石半径的要求可与一般",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"U3pWL1ZHT0hkbk52WEZKYWlNRTJ4QT09",
+								"content":"4.6.5  环形平面交叉应采用交通岛、路面标线、交通标志进行渠化设计。在环道进出口上各向车辆行驶迹",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"MzlDeFdrdFJqVUVKOTdDWGk1OUJ3dz09",
+								"content":"4.6.6  中心岛上不宜布置开放式绿地。中心岛上的绿化不得阻挡行车视线，应保证环道上绕行车辆的行车",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"OUJCZDVFSXFodFNuU0xhQUtyTzV5QT09",
+								"content":"4.6.7  环形交叉口在同地下设施相配合或地形有利的情况下，宜设置行人地下通道。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"cEtwR2ZGdVB6YytzRWpQM2x5YW1vZz09",
+						"content":"4.7 附属设施",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"NTAxd1hnc29jZXRqaUptVy9XM0duUT09",
+								"content":"4.7.1  平面交叉口交通管理及有关附属设施应包括交通信号灯、交通岛、标志、标线、隔离设施、排水、",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"ZnM1VmRJaFk2R3dhS2p1SDNKaW1Xdz09",
+								"content":"4.7.2  信号控制交叉口交通信号灯应按现行国家标准《道路交通信号灯设置规范》GB 14886规定",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VlBQZjd1dUN5ak42NFFnRmxaM3E1QT09",
+								"content":"4.7.3  当环形交叉口交通流量较大时，可采用交通信号灯控制进、出环车辆在环道交织段上的通行权。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"U240dG1iOXN3cFRRRXRjVWMraWRjUT09",
+								"content":"4.7.4  交通岛可分为导流岛和安全岛。交通岛不应设在竖曲线顶部。交通岛面积不宜小于7.0m2，面",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"aTh6YUQzR0xTMEtsV3hySnZKeVF1UT09",
+								"content":"4.7.5 导流岛间导流车道的宽度应适当，以避免因过宽而引起车辆并行、抢道。当需设右转专用车道而布设",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"REFHYnVya21jSUhwY2lOQlIveEtvUT09",
+								"content":"4.7.6导流岛端部应醒目，并在外形上能诱导车辆前进方向，必要时可兼做行人过街安全岛。倒流岛的偏移距",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VC8vbWI2Ylo3emxlZTg5a1dYalVoZz09",
+								"content":"4.7.7  交叉口范围内的交通标志和标线设计应符合现行国家标准《道路交通标志和标线》GB 5768",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"MW9wTWIwMFhQeGhGajM3L3NXajgxZz09",
+								"content":"4.7.8 当进口道横断面中线偏移(图4.7.8)时，应采用过渡区标线加以渠化。渠化长度(ld)可按",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"MWs2M2I5MTdISGl6NFhSUnhXeDB2QT09",
+								"content":"4.7.9当进口道向右侧展宽而左转车道直行车道引出（图4.7.9）时，应采取鱼肚形标线加以渠化。渠化",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"MDR2ZjV2aDhSK0pJV2QvdGtGUzF1UT09",
+								"content":"4.7.10  平面交叉口可根据用地条件设置越过行人横道线的左转车超前候驶区，候驶区前端位置以不影响",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Y2l2RFFRMU43WUlvY2U5QTlZcm9CUT09",
+								"content":"4.7.11  有交通信号控制或停车让行标志的平面交叉口进口道处必须设置停止线。停止线宜垂直于车道中",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"dWJpbUZmNVd1VkppTFVZZEg3RlcyQT09",
+								"content":"4.7.12  平面交叉口应防止路段的雨水流入交叉口、防止雨水流过行人过街横道、防止交叉口积水，其排",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"SjIxSVc4MHA1ZjBKWUhpU09lajN2UT09",
+								"content":"4.7.13  平面交叉口的照明应满足平均照度、照度均匀度和眩光限制三项指标，照度应高于每一条相交道",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"SUZ6ZnBsZ3MvN1dIVlZaQkM3UksxUT09",
+								"content":"4.7.14  平面交叉口的绿化应起到夏季遮阳、交通诱导、防护隔离、吸尘降噪、美化环境的作用，其设计",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"VkZnbWNYMlBoanpmQmVqOG1DelVOUT09",
+						"content":"4.8 高架路下的平面交叉",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"SC9yL21hMjg3cUJtYnhhQ083RC8xZz09",
+								"content":"4.8.1  高架路下的平面交叉，由于受高架桥墩、柱的影响，通视条件较差，应通过交通组织和交通标志、",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"ZjRTcld1TGNUbE5nYUNYSG5sZWJJUT09",
+								"content":"4.8.2  在交叉口处设有高架路上下匝道时，应根据上下匝道交通量情况对相关进出口道路进行拓宽。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					}
+				]
+			},
+			{
+				"id":"VWVIejZZZjNNWVdHNk1neUpmMVplUT09",
+				"content":"5 立体交叉",
+				"image":null,
+				"sort":0,
+				"is_catalogue":1,
+				"is_force":0,
+				"children":[
+					{
+						"id":"a1hjMWlaTE5CeW5sRVZGaG9Od3NFUT09",
+						"content":"5.1 主线横断面",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"VzdBeVRLajNOd0pHMy90bkVObThmUT09",
+								"content":"5.1.1  立交主线横断面可由车行道、路缘带、分车带、路侧带、集散车道、变速车道以及防撞设施等部分",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"QkZLRjVRWHBObU9pL21lMzJGeW1KUT09",
+								"content":"5.1.2  主线横断面车行道布置宜与主线路段相同。当设集散车道时，集散车道布置在主线机动车道右侧，",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"YVkzYUhXaE5ybThtRVYxSFV5bnFrUT09",
+						"content":"5.2 主线的平纵线形",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"a2JwUDM1YklNOFVIZzNUR095U3hpdz09",
+								"content":"5.2.1  立交主线平面线形技术要求应与路段一致。在进出立交的主线路段，其行车视距宜大于或等于1.",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VVJiNFJTV1NFeFhZY0RzOFlmTFRCQT09",
+								"content":"5.2.2 机动车道最大纵坡应符合表5.2.2的规定。        注：1机动车道最大纵坡应采用小",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Uk5ocUJjd2NOTmREUlV1L09wQjIzUT09",
+								"content":"5.2.3 机动车道纵坡长度应符合下列规定：1 道路纵坡最小长度应符合表5.2.3—1规定，且应大于",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VnE4eFljVTBCYXNXanNxOCt3VTdHUT09",
+								"content":"5.2.4 非机动车道线形应符合下列规定：1 非机动车道与主线平行布置时，其平面线形应与主线一致。2",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"WlprNEJrU28za1RNZDVNY2kzQUNiQT09",
+						"content":"5.3 匝 道",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"ZUtIdG9WTlFrc0tyeXg5WmJBajFqZz09",
+								"content":"5.3.1 立交匝道横断面应由车道、路缘带、停车带和防撞护栏或路肩组成，并应符合下列规定：1 匝道横",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"TndGbFdEanp2bElhLzFVeng3S01LZz09",
+								"content":"5.3.2立交闸道平面线形设计应符合下列规定：    1闸道的圆曲线最小半径值应符合表5.3.2-1",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"YVZPL1Nuck1ROXdrZmxJNFlnK0pNZz09",
+								"content":"5.3.3立交闸道纵断面设计应符合下列规定：    1 立交匝道最大纵坡不应大于表5.3.3-1的规",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"V2RrZG9oTVBoVE93RFExNlBKdlZIQT09",
+								"content":"5.3.4 立交匝道横坡与超高应符合下列规定：1 立交匝道路拱横坡应满足最低路表排水要求。路拱(双向",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VmhQY3BFdWVzYzJFamNqSXhPUVI1dz09",
+								"content":"5.3.5 匝道端部出入口设计应符合下列规定：1 匝道端部出入口应包括匝道渐变段、变速车道。2 匝道",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"N3p6ajUwUkRkOUF1akNpUE9ZTlZoZz09",
+						"content":"5.4 辅助车道",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"aGJFN3BFK3FLWFIwMkVWTWdJcmRsQT09",
+								"content":"5.4.1  辅助车道用于互通式立交分、合流段。辅助车道的宽度应与直行车道相同。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"MStTdGc0dk9XdU9aTG1qVGpOa0tsQT09",
+								"content":"5.4.2 在城市快速路的全长或较长的路段内基本车道数应保持一致，相邻两段同一方向的增减必须符合基本",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"elFDYmhidlRYbDZyVjhGWGQrVUp6UT09",
+								"content":"5.4.3 在设置双车道匝道的分、合流处，应增设辅助车道[
+									图5.4.3（a）
+								]。辅助车道长度（包括渐",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"OU5ISHF6V1dCaVRyUEsybExISzVQdz09",
+						"content":"5.5 变速车道和集散车道",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"NFdhZFFDcVNtYWVBMk41ZTNFa21wUT09",
+								"content":"5.5.1  在互通式立交匝道出入口处，应设置车辆变速车道。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":1
+							},
+							{
+								"id":"cCsvL1hZM1VaRTgxZm9SMzVoa0ZHQT09",
+								"content":"5.5.2 变速车道分为直接式和平行式两种(图5.5.2—1、图5.5.2—2)。减速车道宜采用直接",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"TWlSaE5mQkJUTWM0bmU0SnNoWE50QT09",
+								"content":"5.5.3 主线为曲线时的变速车道分为两种，并应符合下列要求：1 对平行式变速车道(图5.5.3—1",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"eGNsa2hFSWdEaWF0RWwxdjFVaE5ZUT09",
+								"content":"5.5.4  集散车道应符合下列规定：1  当有下列情况之一，可考虑设置集散车道：1)通过车道交通量",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"RjAyNXJTWEdCVXFYL1pKcXFJOTFIdz09",
+						"content":"5.6 服务水平与通行能力",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"QlM5MzM5YUdWTHVTMFdpTjRLTHBhUT09",
+								"content":"5.6.1  立交通行能力分为可能通行能力和设计通行能力，设计通行能力等于可能通行能力(Np)乘以相",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"SmlEOStDSmJ1UzJIT3FsUWdjb25LQT09",
+								"content":"5.6.2 立交主线一条车道可能通行能力可采用表5.6.2—1的数值。        立交匝道一条车",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"N3o1eXJxeUdyL2Y2c0hvWXh0Q2t1UT09",
+								"content":"5.6.3 立交主线及其匝道的服务水平可划分为四个等级，服务水平标准分级应符合表5.6.3的规定。 ",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"ZlQ1L1F1MzdsM2MvdEdVZnRyeHpsdz09",
+								"content":"5.6.4  立A1、立A2类立交宜采用服务水平Ⅱ1级，立B类立交服务水平可采用Ⅱ2级。一般匝道服务",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"dnp3REl2dGc3TjJZMUVMWGhGSU1jQT09",
+								"content":"5.6.5  立交设计通行能力应为组成该立交的主线直行车道、转向匝道设计通行能力的组合值，与服务水平",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"aEVZV2RvUEtSTnRhZytoUlBsQXFnQT09",
+						"content":"5.7 附属设施",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"TzBndVFSVHNKaVB5cmVmVjdrZHVnQT09",
+								"content":"5.7.1  交通标志和标线应符合现行国家标准《道路交通标志和标线》GB 5768的规定。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Z0kxRXdiaERZUzQ5cTJCR2YwdmV1Zz09",
+								"content":"5.7.2  防撞护栏应符合《公路交通安全设施设计技术规范》JTGD 81的规定。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"YUEreVdURmE3T3JCWHdTOFFDUGZKZz09",
+								"content":"5.7.3  防眩设施主要分为防眩板、防眩网和密集植树三大类，并应符合下列规定：1  符合下列情况之",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"SjJuRFhSUXNIcklXeGtTcGVwZ0prUT09",
+								"content":"5.7.4  隔声设施主要分为声屏障和绿化带二大类。当立交主线或匝道经过居民住宅区、学校或医院以及办",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"OGNqb1AwakdLZzFOSytXMTU2K0p3UT09",
+								"content":"5.7.5  城市道路立交的排水设计应在城市总体排水规划指导下进行，并应符合现行国家标准《室外排水设",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"elBWQ0huSUt3SWVvNHJiK2ZIR2VWdz09",
+								"content":"5.7.6 城市道路立交照明设施应安全可靠、经济合理、节省能源、维修方便、技术先进，具有良好的诱导性",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"T3RxRE9mMVFZaTN5ZktBWVh2R20rdz09",
+								"content":"5.7.7 互通式立体交叉范围的环境绿化应符合下列规定：1 互通式立体交叉范围内栽植树木时，应栽植不",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					}
+				]
+			},
+			{
+				"id":"bmRFcEhoMTVDWkNFVmpwOG1kYUhJUT09",
+				"content":"6 道路与铁路交叉",
+				"image":null,
+				"sort":0,
+				"is_catalogue":1,
+				"is_force":0,
+				"children":[
+					{
+						"id":"elVQc1VyalNSVm9DR1h6TGNkTzRMUT09",
+						"content":"6.1 设计原则",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"SG5vWWxydkMwR1QrcEMvZGdCM3dIdz09",
+								"content":"6.1.1  道路与铁路交叉的位置应符合城市总体规划。需要调整时，应报有关部门确定。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Rmhvd1pJa3lPaW42eVpabnl0UldwZz09",
+								"content":"6.1.2  道路与铁路交叉的形式应根据道路和铁路的性质、等级、交通量、地形条件、安全要求以及经济效",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"MkZVdGg1SWlrZDlIamdwZTlOdEx4dz09",
+								"content":"6.1.3  道路与规划铁路交叉，铁路与规划道路交叉，应根据批准的规划修建年限，交叉工程量的大小和后",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"MUxuWjI4dFMyMUsveU02VEVpUzJwUT09",
+								"content":"6.1.4  道路与铁路交叉设计应合理利用地形，减少工程量，节约用地。用地范围应按道路和铁路设计规范",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"d3lxTFQ5RUJpWStYcjJZOHJPaS9Idz09",
+								"content":"6.1.5  在与铁路交叉的道路上设置交通标志和标线，应按现行国家标准《道路交通标志和标线》GB 5",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"MmVZWjM1WGxMRWRBOEZRMVN3ZHBuQT09",
+						"content":"6.2 平面交叉",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"OFVOQmRPOHpxRWpmRi80NXp5TWZRQT09",
+								"content":"6.2.1  道路与铁路平面交叉道口不应设在铁路道岔处、站场范围内、铁路曲线路段以及道路与铁路通视条",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"emE2TDNEaklHR0dncFM4N3MxRDMxQT09",
+								"content":"6.2.2  道路与铁路平面交叉道口处道路与铁路宜为正交。斜交时，交叉角宜大于60°，特殊困难时，应",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"bzI1Ulg3WHhPZGJ5SjNtQmJvaDMvQT09",
+								"content":"6.2.3  道路与铁路平面交叉时，道路线形应为直线。直线段从最外侧钢轨外缘算起应大于或等于30m。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VGpGTUlwWFRzM2xucVIwZmdpalBodz09",
+								"content":"6.2.4 道口两侧应设置平台。自最外侧钢轨外缘到最近竖曲线切点间的平台应符合下列规定：1 通行各类",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"OUFkdkdaSUdTbUo2V0R4MnVpNHl1Zz09",
+								"content":"6.2.5  道口铺面高程应等于轨面高程。道口处有两股或两股以上铁路线时，不宜有轨面高程差。困难条件",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Q2xwcml1eHA4cWM3TzNOZHBYNmwyUT09",
+								"content":"6.2.6  道口铺面宽度不应小于相交道路车行道和人行道宽度之和。困难条件下，人行道部分铺面宽度可按",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Z3YrZldrMy81WGNOekU2aUc0b1FYdz09",
+								"content":"6.2.7  道路铺面应选用钢筋混凝土预制板或料石等坚固耐用、平整、稳定且易于翻修的材料。道口范围的",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"bVhKd2xwMVZUanoyUzhyRUM3dm5mZz09",
+								"content":"6.2.8  道口铺面范围内不应有钢轨普通接头，不能避免时应将钢轨焊接。道口铁路轮缘槽宽度宜为70m",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"ZzVqazdxbmtaMFB5VWN2VUhNUDlBQT09",
+								"content":"6.2.9 无人看守或未设置自动信号的铁路道口视距三角形范围内(图6.2.9)严禁有任何妨碍机动车驾",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":1
+							},
+							{
+								"id":"b0RGOURGNG5xRmZMYUlpYWRjdFVsUT09",
+								"content":"6.2.10  城市道路与铁路平面交叉的道口，均应满足现行国家标准《铁路线路设计规范》GB 5009",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"VkI5WlkwSzlVT3dRNVJFenFRT3UrUT09",
+								"content":"6.2.11  道口两侧的道路上应按道路交通管理有关规定设置交通标志、标线、防护设施和信号设备等。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"d0RQNUV2bnhuUG9yaWE3Y0ZHU1lSUT09",
+								"content":"6.2.12  道口应有完整通畅的排水设施，并应使铁路、道路排水设施相配合，综合形成良好的排水系统。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					},
+					{
+						"id":"YXpzTVhqSW9CSXl3NndGMThsK3FCdz09",
+						"content":"6.3 立体交叉",
+						"image":null,
+						"sort":0,
+						"is_catalogue":1,
+						"is_force":0,
+						"children":[
+							{
+								"id":"aSs3d3EzbmQ2T0Y0ZjNnZlNwZkJZdz09",
+								"content":"6.3.1 道路与铁路立体交叉的设置应符合下列条件：1 城市快速路与铁路交叉、铁路路段旅客列车行车速",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"UWJBdzJXWERHTWdZREx1MktyRExKUT09",
+								"content":"6.3.2  道路与铁路立体交叉的位置与形式应根据城市总体规划的要求，并根据道路与铁路的等级性质、交",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"TGNIUEtpUVErMWNFNkphTkV1UStiUT09",
+								"content":"6.3.3  道路与铁路立体交叉的道路主线和引道的平面线形设计，应符合现行行业标准《城市道路设计规范",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"Z3BOVGR4NDh3OHptdUdBcVluVmQxUT09",
+								"content":"6.3.4  道路与铁路立体交叉的道路主线和引道的纵断面线形设计应符合本规程第5.2节的规定。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"QVJ0eml5aTVpbWZXZFUyaFNzcDNqUT09",
+								"content":"6.3.5  立体交叉处，道路车行道宽度不应减窄，人行道宽度可根据行人流量计算确定，但每侧人行道宽度",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"RG8vMFRTNmorSWZWWXA1dGZ4VUxsUT09",
+								"content":"6.3.6  道路与铁路立体交叉的建筑限界应符合下列规定：  1  道路的建筑限界应符合现行行业标准",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"T0RHMmE0RktCZ2xhYXdGYTYwS21vZz09",
+								"content":"6.3.7  立体交叉内应形成完整通畅的排水系统，且应符合下列规定：  1  对立交桥下的地面水，宜",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							},
+							{
+								"id":"UUdzY051Rlo3K1lTajJMYTY0ZVcxZz09",
+								"content":"6.3.8 立体交叉范围内的道路上，应按道路交通管理有关规定，设置交通标志、标线和安全防护设施等。",
+								"image":null,
+								"sort":0,
+								"is_catalogue":0,
+								"is_force":0
+							}
+						]
+					}
+				]
+			},
+			{
+				"id":"T2VVNlJMWU8zZ1FpQS9HcmVReURRdz09",
+				"content":"附录A 立交方案评价",
+				"image":null,
+				"sort":0,
+				"is_catalogue":1,
+				"is_force":0,
+				"children":[
+					{
+						"id":"OHFoc1dIOXFydGo0MVdFZ2hCQXNqdz09",
+						"content":"A.0.1  立交方案评价可按下列原则进行：1  应根据相交道路性质按本规程表3.1.4确定立交类型",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"OWcrckI4dk9wU1BTa1BOZVU2U3ZyUT09",
+						"content":"A.0.2 立交方案评价宜采用下述方法：1 立交方案经济评价方法可采用国民经济评价方法。2 经济效益",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					}
+				]
+			},
+			{
+				"id":"NVlhVjBNQ1FhdzZORGEyKzJYUG9zQT09",
+				"content":"附录B 立交附属设施结构形式图",
+				"image":null,
+				"sort":0,
+				"is_catalogue":1,
+				"is_force":0,
+				"children":[
+					{
+						"id":"czAwMm90QUd2ZnVZQXMzME93VkVEdz09",
+						"content":"B.1 波形梁护栏常见结构形式图    ",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"dmt3S3JmdW93NzIzdkx2UTJCWlBEdz09",
+						"content":"B.2混凝土护栏结构形势图        ",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"OTgwenUxL2lhNEZzTEw5UlRYMERKUT09",
+						"content":"B.3防眩板结构形式图        ",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					},
+					{
+						"id":"V2NhS3JFMzdZR1FrSjVwQURwMkJyUT09",
+						"content":"B.4 声屏障结构形式图        ",
+						"image":null,
+						"sort":0,
+						"is_catalogue":0,
+						"is_force":0
+					}
+				]
+			}
+		],
+		"note_list":[
+			
+		]
+	}
+}
