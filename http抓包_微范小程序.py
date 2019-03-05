@@ -68,6 +68,9 @@ def parse_explain2dt(dts):
     return expns_dt
 
 def loop_files(directory_in_str):
+    '''
+    将所有的抓包数据文件夹遍历
+    '''
     temp = []
     for root, dirs, files in os.walk(directory_in_str):
         for name in files:
@@ -77,6 +80,11 @@ def loop_files(directory_in_str):
     return temp
 
 def html_writer(book_name,pageGen):
+    '''
+    book_name:规范名
+    pageGen:所有的提取到的txt的Generator
+    将所有数据写入至html文件中
+    '''
     filename='c:\\Users\\Administrator\\SynologyDrive\\zhuabao\\output.html'
     part1='''<html>
     <head>
@@ -102,6 +110,7 @@ def main():
         dts = split_body(file)
         if dts:
             fullPage.append(parse_content(dts))
+    #第个小txt提取的内容按序号进行排序
     sortedPage=sorted(fullPage,key=lambda x:(int(x[0]),int(x[1])))
     for page in sortedPage:
         yield page[-1]
